@@ -41,12 +41,16 @@ struct GameView: View {
 
                 HStack {
                     NavigationLink("Start Game") {
-                        GameView()
+                        PlayingView(vm: vm)
                     }
                     .foregroundColor(.blue)
                 }
             }
             .navigationTitle("MULTIPLY")
+            .onDisappear {
+                vm.startGame()
+            }
+            .onAppear(perform: vm.resetVals)
         }
     }
 }
