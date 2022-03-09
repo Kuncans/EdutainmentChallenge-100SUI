@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		956D7C4227D8B792007DBE4E /* EdutainmentChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C4127D8B792007DBE4E /* EdutainmentChallengeApp.swift */; };
-		956D7C4427D8B792007DBE4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C4327D8B792007DBE4E /* ContentView.swift */; };
 		956D7C4627D8B793007DBE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956D7C4527D8B793007DBE4E /* Assets.xcassets */; };
 		956D7C4927D8B793007DBE4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956D7C4827D8B793007DBE4E /* Preview Assets.xcassets */; };
+		956D7C5027D8B7B6007DBE4E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C4F27D8B7B6007DBE4E /* GameView.swift */; };
+		956D7C5227D8B7C3007DBE4E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C5127D8B7C3007DBE4E /* GameViewModel.swift */; };
+		956D7C5427D8B82C007DBE4E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C5327D8B82C007DBE4E /* Question.swift */; };
+		956D7C5627D8C331007DBE4E /* Difficulties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C5527D8C331007DBE4E /* Difficulties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		956D7C3E27D8B792007DBE4E /* EdutainmentChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdutainmentChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		956D7C4127D8B792007DBE4E /* EdutainmentChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdutainmentChallengeApp.swift; sourceTree = "<group>"; };
-		956D7C4327D8B792007DBE4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		956D7C4527D8B793007DBE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956D7C4827D8B793007DBE4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		956D7C4F27D8B7B6007DBE4E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		956D7C5127D8B7C3007DBE4E /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		956D7C5327D8B82C007DBE4E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		956D7C5527D8C331007DBE4E /* Difficulties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				956D7C4127D8B792007DBE4E /* EdutainmentChallengeApp.swift */,
-				956D7C4327D8B792007DBE4E /* ContentView.swift */,
+				956D7C4F27D8B7B6007DBE4E /* GameView.swift */,
+				956D7C5527D8C331007DBE4E /* Difficulties.swift */,
+				956D7C5127D8B7C3007DBE4E /* GameViewModel.swift */,
+				956D7C5327D8B82C007DBE4E /* Question.swift */,
 				956D7C4527D8B793007DBE4E /* Assets.xcassets */,
 				956D7C4727D8B793007DBE4E /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				956D7C4427D8B792007DBE4E /* ContentView.swift in Sources */,
+				956D7C5227D8B7C3007DBE4E /* GameViewModel.swift in Sources */,
+				956D7C5427D8B82C007DBE4E /* Question.swift in Sources */,
+				956D7C5027D8B7B6007DBE4E /* GameView.swift in Sources */,
 				956D7C4227D8B792007DBE4E /* EdutainmentChallengeApp.swift in Sources */,
+				956D7C5627D8C331007DBE4E /* Difficulties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
